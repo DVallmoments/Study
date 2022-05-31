@@ -16,7 +16,7 @@ Description: 메모리의 종류 및 변수와 상수 클래스의 대하여
 > 2. 변수는 Primitive Type으로 Stack영역에 저장되어 LIFO(후입선출)로 작동함.
 > 3. 클래스 등의 Array Type은 Heap영역에 저장되어 FIFO(선입선출)로 작동함.  
 
-타입변환(형 변환)
+타입변환 (형 변환)
 > 변수의 데이터 타입을 다른 타입으로 변환 하는 것.  
 > 1. 자동(암시적 변환, Implicit) : Promotion
 > 2. 수동(명시적 변환, Explicit) : Casting
