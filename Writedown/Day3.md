@@ -19,6 +19,10 @@ Description: 코딩 실습
 ## :wrench: switch   
 ## :wrench: break문의 정확한 이해
 ## :wrench: 조건문과 반복문의 혼합사용
+## :wrench: factorial (팩토리얼)
+## :wrench: 조건문과 반복문의 혼합사용 심화
+## :wrench: 프로그램과 복잡도(Complexity)
+> 
 >   
 >   
 >   
