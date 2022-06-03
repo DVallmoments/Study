@@ -4,39 +4,39 @@ Date: '2022-06-02'
 File: Chap03 ~ Chap15  
 Description: 기초 프로그래밍
 ---------------------------
-## 1️⃣ 스캐너   
+## ## :wrench: 소제목 스캐너   
 
 > import java.util.Scanner; 를 선언하고 사용함  
 > Scanner sc = new Scanner(System.in); 클래스 선언  
 > 정수 nextInt(), 실수 nextDouble(), 문자열 next() 등 타입에 따라 변경됨  
 
-## 2️⃣ 연산자  
+## ## :wrench: 소제목️⃣ 연산자  
 연산자의 정의
 > 데이터를 처리하여 결과를 산출하는 것
 > 사용되는 기호 (+, -, *, / %, =, 등등)  
 > 단항 > 이항 > 삼항 / 산술 > 비교 > 논리 > 대입  
 > (좌측으로 갈 수록 우선순위 높음)
  
-## 4️⃣ 제어문  
+## ## :wrench: 소제목️⃣ 제어문  
 if문  
 > 조건식에 따라 true는 블록실행 false 블록실행 하지 않음  
   
 switch문  
 > 변수 및 연산식 값에 따라 실행문을 선택함 
  
-## 3️⃣ 반복문  
+## ## :wrench: 소제목️⃣ 반복문  
 for문
 > 반복 횟수를 알고 있을 때 주로 사용
 while문, do while문
 > 조건에 따라 반복을 계속할지 결정할 때 사용
 
-## 5️⃣ 탈출  
+## ## :wrench: 소제목️⃣ 탈출  
 break  
 > 반복문의 반복 취소  
 > if문과 같이 사용하는 편, if문 조건식에 따라 for문 및 while문 종료하기 위해 사용  
 > 반복문이 중첩된 경우 가장 가까운 반복문만 종료  
 
-## 6️⃣ Class, Object, instance of 비교  
+## ## :wrench: 소제목️⃣ Class, Object, instance of 비교  
 비유하자면
 > Class == 현대자동차 / 객체를 만들어 내기 위한 설계도  
 > Object == 아반테, 쏘나타 등등 / 소프트웨어 세계에 구현할 대상  
