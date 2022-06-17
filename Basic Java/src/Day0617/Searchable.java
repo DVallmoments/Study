@@ -1,4 +1,4 @@
-package Day0617_B;
+package Day0617;
 
 public interface Searchable {
 	void search(String url);

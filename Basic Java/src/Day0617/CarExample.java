@@ -1,4 +1,4 @@
-package Day0617_C;
+package Day0617;
 
 public class CarExample {
 	public static void main(String[] args) {

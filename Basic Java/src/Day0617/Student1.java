@@ -1,4 +1,4 @@
-package Day0617_B;
+package Day0617;
 
 public class Student1 extends LunchMenu {
 	int rice, bulgogi, banana;

@@ -1,4 +1,4 @@
-package Day0617_B;
+package Day0617;
 
 public class RemoteControlExampleV2 {
 	public static void main(String[] args) {

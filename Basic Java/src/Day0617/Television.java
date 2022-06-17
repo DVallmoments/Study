@@ -1,8 +1,8 @@
-package Day0617_B;
+package Day0617;
 
-public class SmartTelevision implements RemoteControl, Searchable {
+public class Television implements RemoteControl {
 	private int volume;
-	
+
 	@Override
 	public void turnON() {
 		System.out.println("TV를 켭니다.");
@@ -22,10 +22,5 @@ public class SmartTelevision implements RemoteControl, Searchable {
 		else
 			this.volume = volume;
 		System.out.println("현재 TV볼륨: " + volume);
-	}
-
-	@Override
-	public void search(String url) {
-		System.out.println(url + "을 검색합니다..");
 	}
 }

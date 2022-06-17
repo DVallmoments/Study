@@ -1,4 +1,4 @@
-package Day0617_C;
+package Day0617;
 
 public class KumhoTire implements Tire {
 	@Override
