@@ -1,9 +1,9 @@
 package Day0617;
 
 public class Price {
-	final int rice = 1000;
-	final int bulgogi = 5000;
-	final int banana = 700;
-	final int milk = 1000;
-	final int almond = 500;
+	final static int RICE = 1000;
+	final static int BULGOGI = 5000;
+	final static int BANANA = 700;
+	final static int MILK = 1000;
+	final static int ALMOND = 500;
 }

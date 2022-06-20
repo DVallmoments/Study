@@ -1,20 +1,13 @@
 package Day0617;
 
 public class Student2 extends LunchMenu {
-	int rice, bulgogi, milk, almond;
-
-	public Student2() {
-		super();
+	public Student2(int rice, int bulgogi, int milk, int almond) {
+		super(rice, bulgogi, milk, almond);
 		this.name = "Student2";
 	}
 
 	@Override
 	public int calculator() {
-		return price.bulgogi + price.rice + price.milk + price.almond;
-	}
-	
-	@Override
-	public void print() {
-		System.out.println(name + " 식비는 " + calculator() + "원 입니다....");
+		return rice + bulgogi + milk + almond;
 	}
 }
