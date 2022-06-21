@@ -7,6 +7,7 @@ public class SmartPhone {
 	Contact[] ct = new Contact[10];
 
 	int inputDataLength = 0;
+	int editPosition;
 	String name, phone, email, address, birth, group;
 	boolean editflags = false;
 
@@ -28,10 +29,12 @@ public class SmartPhone {
 	}
 
 	public Contact addContact(Contact contact) {
-		ct[inputDataLength] = contact;
-
-		if (editflags == false)
+		if (editflags == false) {
+			ct[inputDataLength] = contact;
 			inputDataLength++;
+		} else {
+			ct[editPosition] = contact;
+		}
 		System.out.printf(">>> 데이터가 저장되었습니다. (%d)\n", inputDataLength);
 
 		return contact;
@@ -52,6 +55,7 @@ public class SmartPhone {
 			if (ct[i].getName().contentEquals(name) == true) {
 				if (editflags == true) {
 					printContact(ct[i]);
+					editPosition = i;
 					editContact(name, ct[i]);
 				} else {
 					printContact(ct[i]);
