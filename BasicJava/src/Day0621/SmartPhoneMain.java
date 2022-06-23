@@ -1,4 +1,4 @@
-package SandBox;
+package Day0621;
 
 import java.util.Scanner;
 

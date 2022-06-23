@@ -1,4 +1,4 @@
-package SandBox;
+package Day0621;
 
 public class Contact {
 	private String name;

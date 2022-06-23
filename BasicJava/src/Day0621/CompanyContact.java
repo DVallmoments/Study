@@ -1,4 +1,4 @@
-package SandBox;
+package Day0621;
 
 public class CompanyContact extends Contact {
 	private String companyName;
